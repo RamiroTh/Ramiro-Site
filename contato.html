@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+   <head>
+     <meta charset="UTF-8">
+     <title>Contato - Futebol</title>
+
+     <link rel="stylesheet" href="">
+     <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+     <header>
+     	<div class="caixa">
+	     	<h1><img id="cabeçalho" src="http://3.bp.blogspot.com/_bPu2gpbfnPw/TOm9LwPlbKI/AAAAAAAAAgQ/NzQlFJBsKaA/w1200-h630-p-k-no-nu/bola+de+futebol.jpg" ></h1> 
+	     	<nav>
+		        <ul>
+		        	<li><a href=index.html>Home</a></li>
+		        	<li><a href=produtos.html>Produtos</a></li>
+		        	<li><a href=contato.html>Contato</a></li>
+		        </ul>
+	        </nav>
+        </div>
+     </header>
+
+     <main>
+     	 <form>
+          <label for="nomesobrenome">Nome e Sobrenome</label>        	 	
+     	 	  <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+     	 	  <label for="email">Email</label>
+     	 	  <input type="email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+     	 	  <label for="telefone">Telefone</label>
+      	 	<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+
+          <label for="mensagem">Mensagem</label>
+
+      	 	<textarea cols="70" rows="10" class="input-padrao" required></textarea>
+      	 	  <fieldset>
+           <legend>Como prefere nosso contato?</legend>
+           <label for="radio-email"> <input type="radio" name="Contato" value="email" id="radio-email">Email</label>
+           
+ 
+            <label for="radio-telefone"> <input type="radio" name="Contato" value="telefone" id=radio-telefone>Telefone</label>
+
+            <label for="radio-whatsapp">  <input type="radio" name="Contato" value="whatsapp" id=radio-whatsapp checked>WhatsApp</label>
+           
+          </fieldset>
+
+          <fieldset>
+          <legend>Qual horário você está vendo o site?</legend>
+           <select>
+           	 <option>Manhã</option>
+           	 <option>Tarde</option>
+           	 <option>Noite</option>
+           </select>
+         </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades sobre futebol no email?</label>
+
+
+      	 	<input type="submit" value="Enviar formulário" class="enviar">
+     	 </form>
+     	
+     </main>
+
+           <footer>
+        <img id="imagemdois" src="https://tse1.mm.bing.net/th?id=OIP.6FgY6cIzo9OraQani7tTdQHaE_&pid=Api&P=0">
+        
+      </footer>
+
+   </body>
+</html>
